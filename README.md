@@ -2,3 +2,5 @@
 Repositorio del Proyecto Integrador Final del curso de PHP y MySQL perteneciente al grupo 10
 
 1/10/24 Creación del repositorio y sus respectivos branch
+
+2/10/24 Generación de directorios y archivos base
