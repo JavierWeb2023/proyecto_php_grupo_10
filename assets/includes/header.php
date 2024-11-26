@@ -6,10 +6,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://echo-grupo-diez.wuaze.com/">INICIO</a>
+                        <a class="nav-link" href="http://localhost/tf-php-avanzado/">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://echo-grupo-diez.wuaze.com/contacto.php">CONTACTO</a>
+                        <a class="nav-link" href="http://localhost/tf-php-avanzado/contacto.php">CONTACTO</a>
                     </li>
                 </ul>
             </div>
