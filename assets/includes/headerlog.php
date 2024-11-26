@@ -15,6 +15,9 @@
                                 <a class="dropdown-item" href="http://localhost/tf-php-avanzado/usuarios/perfil.php">VER PERFIL</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="http://localhost/tf-php-avanzado/contacto.php">CONTACTO</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="http://localhost/tf-php-avanzado/usuarios/logout.php">CERRAR SESI&Oacute;N</a>
                             </li>
                         </ul>

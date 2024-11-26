@@ -8,6 +8,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost/tf-php-avanzado/">INICIO</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost/tf-php-avanzado/contacto.php">CONTACTO</a>
+                    </li>
                 </ul>
             </div>
         </div>
