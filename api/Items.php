@@ -8,13 +8,13 @@ class Items {
     $this->conn = $conn;
   }
 
-  public function create(string $nombre, string $apellido, string $tramite, string $fecha, string $horario, int $id_cliente): bool {
+  public function create(string $nombre, string $apellido, string $tramite, Date $fecha, Time $horario, int $id_cliente): bool {
     $stmt = $this->conn->prepare("
       INSERT INTO {$this->itemsTable} (`nombre`, `apellido`, `tramite`, `fecha`, `horario`, `id_cliente`)
       VALUES (?, ?, ?, ?, ?, ?)
     ");
 
-    $stmt->bind_param('sssssi', $nombre, $apellido, $tramite, $fecha, $horario, $id_cliente);
+    $stmt->bind_param('sssssi', $nombre, $apellido, $tramite, $fecha->format('Y-m-d'), $horario->format('H:i:s'), $id_cliente);
 
     if ($stmt->execute()) {
       return true;

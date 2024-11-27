@@ -32,8 +32,8 @@ if(!empty($data->id) && !empty($data->nombre) &&
     $items->nombre = $data->nombre;
     $items->apellido = $data->apellido;
     $items->tramite = $data->tramite;
-    $items->fecha = $data->fecha;
-    $items->horario = $data->horario;
+    $items->fecha = date('Y-m-d');
+    $items->horario = time('H-i-s');
     $items->id_cliente = $data->id_cliente;
 
 
