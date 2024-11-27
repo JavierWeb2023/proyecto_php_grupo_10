@@ -17,6 +17,17 @@ Se deberá crear las siguientes cuentas de usuario ficticias para ver la informa
 
 Proyecto deployado en: http://echo-grupo-diez.wuaze.com/
 
+Para ver los JSON de los datos de la base:
+
+http://echo-grupo-diez.wuaze.com/api/read.php?id=1
+
+http://echo-grupo-diez.wuaze.com/api/read.php?id=2
+
+Para ver todos los datos (se debe estar logueado)
+
+http://echo-grupo-diez.wuaze.com/api/read.php
+
+
 Integrantes de proyecto:
 
 Hugo Javier Ramirez
